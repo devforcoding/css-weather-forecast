@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    background: #3399cc;
+    color: #ffffff;
+    border: 25px solid #2b81ac;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.wrapper h1 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.main-header {
+    padding: 30px 0;
+}
+
+.main-header .wi {
+    color: #ffffff;
+
+}
+
+.tile-cities {
+    background: #ffffff;
+    list-style: none;
+    padding: 3px;
+    margin-bottom: 40px;
+    font-size: 0; /* Пробел, имеющий нулевой размер шрифта, равен... нулю. */
+}
+
+.tile-city {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 10px;
+    border: 3px solid #ffffff;
+    font-size: 26px;
+    width: 25%;
+}
+
+.tile-city .wi {
+    font-size: 40px;
+}
+
+.tile-city:first-child {
+    width: 50%;
+    background-color: #3399cc;
+}
+
+.tile-city:nth-child(2) {
+    background-color: #33cccc;
+}
+
+.tile-city:nth-child(3) {
+    background-color: #996699;
+}
+
+.tile-city:nth-child(4) {
+    background-color: #c24747;
+}
+.tile-city:nth-child(5) {
+    background-color: #e2674a;
+}
+
+.tile-city:nth-child(6) {
+    background-color: #ffcc66;
+}
+
+.tile-city:nth-child(7) {
+    background-color: #99cc99;
+}
+
+.tile-city:nth-child(8) {
+    background-color: #669999;
+}
+
+.tile-city:nth-child(9) {
+    background-color: #cc6699;
+    width: 50%;
+}
+
+.tile-city:nth-child(10) {
+    background-color: #339966;
+}
+
+.tile-city:nth-child(11) {
+    background-color: #666699;
+}
+
+.tile-city:last-child {
+    width: 100%;
+}
+
+.tile-city:hover > li {
+    opacity: 1;
+}
+
+.tile-city:hover {
+    opacity: 0.5;
+}
+
+.tile-city:hover{
+
+    cursor: pointer;
+}
+
+.tile-city-name {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+.tile-city-temperature, .wi {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.tile-city-temperature::after {
+    content: "°C";
+}
+
+.main-footer {
+    margin-bottom: 40px;
+}
+
+
