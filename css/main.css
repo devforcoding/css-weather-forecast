@@ -37,8 +37,19 @@ body {
     list-style: none;
     padding: 3px;
     margin-bottom: 40px;
-    font-size: 0; /* Пробел, имеющий нулевой размер шрифта, равен... нулю. */
+    font-size: 0; /* Пробел, имеющий нулевой размер шрифта, равен нулю. */
 }
+
+
+.tile-cities:hover > li {
+  opacity: .6;
+}
+
+.tile-cities li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 
 .tile-city {
     display: inline-block;
@@ -48,6 +59,7 @@ body {
     font-size: 26px;
     width: 25%;
 }
+
 
 .tile-city .wi {
     font-size: 40px;
@@ -102,18 +114,6 @@ body {
     width: 100%;
 }
 
-.tile-city:hover > li {
-    opacity: 1;
-}
-
-.tile-city:hover {
-    opacity: 0.5;
-}
-
-.tile-city:hover{
-
-    cursor: pointer;
-}
 
 .tile-city-name {
     font-size: 24px;
