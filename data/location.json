@@ -1,0 +1,13 @@
+[
+  {"city": "Lisbon", "temp": "21°C", "lat": 22.3977, "lng": 114.644, "unicode": "\uf00d"},
+  {"city": "Paris", "temp": "25°C", "lat": 44.2, "lng": 54.644, "unicode": "\uf0b3"},
+  {"city": "Belgrade", "temp": "19°C", "lat": 30.397, "lng": 140.644, "unicode": "\uf002"},
+  {"city": "Moscow", "temp": "17°C", "lat": 34.397, "lng": 130.644, "unicode": "\uf07d"},
+  {"city": "Tel Aviv", "temp": "21°C", "lat": 69.397, "lng": -150.4, "unicode": "\uf072"},
+  {"city": "Cair", "temp": "28°C", "lat": 44.397, "lng": 100.2224, "unicode": "\uf00d"},
+  {"city": "New York", "temp": "29°C", "lat": 64.397, "lng": 130.644, "unicode": "\uf068"},
+  {"city": "New Delhi", "temp": "30°C", "lat": 74.2, "lng": 110.644, "unicode": "\uf018"},
+  {"city": "San Francisco", "temp": "12°C", "lat": 44.0, "lng": 120.644, "unicode": "\uf00c"},
+  {"city": "Tokyo", "temp": "14°C", "lat": 44.397, "lng": 62.644, "unicode": "\uf02e"},
+  {"city": "Sydney", "temp": "25°C", "lat": 42.397, "lng": 130.644, "unicode": "\uf083"}
+]
